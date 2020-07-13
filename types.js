@@ -14,3 +14,14 @@ I like
 pizza`;
 
 const hello = `hello my name is ${name}. Nice to meet you`;
+
+const html = `
+    <div>
+        <h2>${name}</h2>
+        <h2>${hello}</h2>
+    </div>
+`;
+
+document.body.innerHTML = html;
+
+console.log(html);
