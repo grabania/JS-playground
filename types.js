@@ -30,6 +30,8 @@ console.log(html);
 
 */
 
+/*
+
 const age = 100;
 const name = 'Bob';
 
@@ -37,3 +39,13 @@ const smarties = 20;
 const kids = 3;
 const eachKidGets = Math.floor(smarties / kids);
 console.log(`Each kids gets ${eachKidGets}`);
+
+*/
+
+const person = {
+	first: 'meme',
+	last: 'mimi',
+	age: 100
+};
+
+// SNOBUSIN
