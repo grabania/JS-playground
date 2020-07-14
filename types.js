@@ -1,3 +1,5 @@
+/*
+
 const name = 'Bob';
 const middle = 'the';
 const last = `Builder`;
@@ -25,3 +27,13 @@ const html = `
 document.body.innerHTML = html;
 
 console.log(html);
+
+*/
+
+const age = 100;
+const name = 'Bob';
+
+const smarties = 20;
+const kids = 3;
+const eachKidGets = Math.floor(smarties / kids);
+console.log(`Each kids gets ${eachKidGets}`);
