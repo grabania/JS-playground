@@ -42,6 +42,7 @@ console.log(`Each kids gets ${eachKidGets}`);
 
 */
 
+/* 
 const person = {
 	first: 'meme',
 	last: 'mimi',
@@ -66,3 +67,10 @@ const teller = {
 
 teller.first = 'Teller';
 teller.last = null;
+
+*/
+
+let isDrawing = false;
+let age = 18;
+const ofAge = age > 19;
+console.log(ofAge);
