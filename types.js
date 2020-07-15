@@ -49,3 +49,20 @@ const person = {
 };
 
 // SNOBUSIN
+
+let somethingUndefined; //no value set = undefined
+const somethingNull = null; //value of nothing = null
+
+//cheer.last - undefined
+const cher = {
+	first: 'cher'
+};
+
+//teller.last - null
+const teller = {
+	first: 'Raymond',
+	last: 'Teller'
+};
+
+teller.first = 'Teller';
+teller.last = null;
