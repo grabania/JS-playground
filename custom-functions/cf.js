@@ -33,4 +33,4 @@ function yell(name) {
 	return `Hey ${name.toUpperCase()}`;
 }
 
-yell(doctorize('Paul'));
+// yell(doctorize('Paul'));
