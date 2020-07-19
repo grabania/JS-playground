@@ -24,3 +24,13 @@ function sayHiTo(firstName) {
 // console.log(greeting);
 
 const myTotal3 = calculateBill(20 + 20 + 30 + 20, 0.15);
+
+function doctorize(name) {
+	return `Dr. ${name}`;
+}
+
+function yell(name) {
+	return `Hey ${name.toUpperCase()}`;
+}
+
+yell(doctorize('Paul'));
