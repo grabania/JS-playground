@@ -2,7 +2,7 @@
 function calculateBill(billAmount, taxRate) {
 	//this is the function body(or block)
 	console.log('Running Calculate Bill!!');
-	const total = billAmount * 1 + taxRate;
+	const total = billAmount * (1 + taxRate);
 	return total;
 }
 
@@ -20,5 +20,7 @@ function sayHiTo(firstName) {
 	return `Hello ${firstName}`;
 }
 
-const greeting = sayHiTo('Me');
-console.log(greeting);
+// const greeting = sayHiTo('Me');
+// console.log(greeting);
+
+const myTotal3 = calculateBill(20 + 20 + 30 + 20, 0.15);
