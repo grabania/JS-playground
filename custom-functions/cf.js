@@ -10,3 +10,15 @@ function calculateBill(billAmount, taxRate) {
 const myTotal = calculateBill(100, 0.13);
 const myTotal2 = calculateBill(200, 0.13);
 console.log(myTotal, myTotal2);
+
+function sayHiTo() {
+	return;
+}
+
+//Function definition
+function sayHiTo(firstName) {
+	return `Hello ${firstName}`;
+}
+
+const greeting = sayHiTo('Me');
+console.log(greeting);
