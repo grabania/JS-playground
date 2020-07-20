@@ -1,8 +1,8 @@
 //Function Definition
-function calculateBill(billAmount, taxRate) {
+function calculateBill(billAmount, taxRate = 0.13, tipRate = 0.15) {
 	//this is the function body(or block)
 	console.log('Running Calculate Bill!!');
-	const total = billAmount * (1 + taxRate);
+	const total = billAmount + billAmount * taxRate + billAmount * tipRate;
 	return total;
 }
 
@@ -34,3 +34,6 @@ function yell(name) {
 }
 
 // yell(doctorize('Paul'));
+
+const myBill4 = calculateBill(100, undefined, 0.2);
+console.log(myBill4);
