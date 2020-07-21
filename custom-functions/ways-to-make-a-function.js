@@ -53,3 +53,13 @@ const cat = {
 		console.log('hii');
 	}
 };
+
+//Callback Functions
+//Click Callback
+const button = document.querySelector('.clickMe');
+
+function handleClick() {
+	console.log('Great Clicking!!');
+}
+
+button.addEventListener('click', handleClick);
