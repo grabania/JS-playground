@@ -28,3 +28,11 @@ const add = (a, b = 3) => a + b;
 // }
 
 const makeABaby = (first, last) => ({ name: `${first} ${last}`, age: 0 });
+
+//IIFE
+//Immediately Invoked Function Expression
+
+(function() {
+	return 'You are cool';
+})();
+
