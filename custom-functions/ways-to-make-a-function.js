@@ -36,3 +36,11 @@ const makeABaby = (first, last) => ({ name: `${first} ${last}`, age: 0 });
 	return 'You are cool';
 })();
 
+//Methods!!!
+const cat = {
+	name: 'me me',
+	sayHi: function() {
+		console.log('Hey me');
+		return 'Hey me';
+	}
+};
