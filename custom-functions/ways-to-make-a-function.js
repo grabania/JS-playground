@@ -63,3 +63,8 @@ function handleClick() {
 }
 
 button.addEventListener('click', handleClick);
+
+//Timer Callback
+setTimeout(function() {
+	console.log('Done! Time to eat!');
+}, 1000);
