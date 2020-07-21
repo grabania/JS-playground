@@ -47,6 +47,9 @@ const cat = {
 	//Short hand Method
 	yellHi() {
 		console.log('Hey Meeee');
-	}
+	},
 	//Arrow function
+	wisperHi: () => {
+		console.log('hii');
+	}
 };
