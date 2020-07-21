@@ -16,3 +16,13 @@
 const inchToCm = (inches) => inches * 2.54;
 
 const add = (a, b = 3) => a + b;
+
+// Returning an object
+
+function makeABaby(first, last) {
+	const baby = {
+		name: `${first} ${last}`,
+		age: 0
+	};
+	return baby;
+}
