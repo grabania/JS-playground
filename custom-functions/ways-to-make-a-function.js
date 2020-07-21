@@ -68,3 +68,8 @@ button.addEventListener('click', handleClick);
 setTimeout(function() {
 	console.log('Done! Time to eat!');
 }, 1000);
+
+//Timer Callback-Arrow Function
+setTimeout(() => {
+	console.log('Done! Time to eat!');
+}, 1000);
