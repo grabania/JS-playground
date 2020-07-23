@@ -43,3 +43,8 @@ function greet(name) {
 	doesNotExist();
 	return `Hello ${name}`;
 }
+
+function go() {
+	const name = doctorize(greet('Me'));
+	console.log(name);
+}
