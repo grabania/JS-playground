@@ -38,3 +38,8 @@ function doctorize(name) {
 	// console.count(`running Doctorize for ${name}`);
 	return `Dr ${name}`;
 }
+
+function greet(name) {
+	doesNotExist();
+	return `Hello ${name}`;
+}
