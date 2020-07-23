@@ -26,7 +26,15 @@ console.table(people);
 
 //Some Stup Code
 
+function doALotOfStuff() {
+	console.group('Doing some stuff');
+	console.log('Hey I am one');
+	console.warn('watch out!');
+	console.error('Hey');
+	console.groupEnd('Doing some stuff');
+}
+
 function doctorize(name) {
-	console.count(`running Doctorize for ${name}`);
+	// console.count(`running Doctorize for ${name}`);
 	return `Dr ${name}`;
 }
