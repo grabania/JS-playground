@@ -9,3 +9,24 @@ people.forEach((person, index) => {
 });
 
 console.table(people);
+
+//Console Methods
+
+//CAllstack
+
+//Grabbing Elements
+
+//Breakpoints
+
+//Scope
+
+//Network Requests
+
+//Break On Atribute
+
+//Some Stup Code
+
+function doctorize(name) {
+	console.count('running Doctorize');
+	return `Dr ${name}`;
+}
