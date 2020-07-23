@@ -27,6 +27,6 @@ console.table(people);
 //Some Stup Code
 
 function doctorize(name) {
-	console.count('running Doctorize');
+	console.count(`running Doctorize for ${name}`);
 	return `Dr ${name}`;
 }
