@@ -40,7 +40,7 @@ function doctorize(name) {
 }
 
 function greet(name) {
-	doesNotExist();
+	doesNotExist(); //Cause an error
 	return `Hello ${name}`;
 }
 
