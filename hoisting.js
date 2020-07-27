@@ -1,3 +1,8 @@
+/* esline-disable */
+let age;
+console.log(age);
+age = 10;
+
 /* What does this file do? */
 sayHi();
 
