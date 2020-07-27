@@ -19,3 +19,7 @@ function isCool(name) {
 	console.log(cool);
 	return cool;
 }
+
+for (let i = 0; i < 10; i++) {
+	console.log(i);
+}
