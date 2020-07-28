@@ -8,17 +8,30 @@
 </head>
 <body>
     <script>
-        function outer() {
-            const outerVar = 'Hey I am the outer Var!';
-            function inner() {
-                const innerVar = 'Hey I am an inner Var!';
-                console.log(innerVar);
-                console.log(outerVar);
+        // function outer() {
+        //     const outerVar = 'Hey I am the outer Var!';
+        //     function inner() {
+        //         const innerVar = 'Hey I am an inner Var!';
+        //         console.log(innerVar);
+        //         console.log(outerVar);
+        //     }
+        //     return inner;
+        // }
+        // const innerFn = outer();
+        // innerFn();
+
+        function createGreeting(greeting = '') {
+            const myGreet = greeting.toUpperCase();
+            return function(name) {
+                return `${myGreet} ${name}`;
             }
-            return inner;
         }
-        const innerFn = outer();
-        innerFn();
+
+        const sayHello = createGreeting('Hello');
+        const sayHey = createGreeting('Hey');
+        console.log(sayHello('pau'));
+        console.log(sayHello('keit'));
+        console.log(sayHey('paul'));
     </script>
 </body>
 </html>
